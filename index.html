@@ -15,9 +15,9 @@
 
        let slabcolor = {'background-image': 'linear-gradient(rgb(80, 15, 90), rgb(72, 2, 76))'};
 
-       //highlight  color 
+       //highlight  color for navbar buttons 
        let slabcolorhl = {'background-image': 'linear-gradient(rgb(80, 15, 90), rgb(143, 43, 149))'}; 
-
+   
        //youtubestates
        let idlescreen = {'src': 'images/eastmecvideoinactive.png'};
        let activescreen = {'src': 'images/eastmecvideo.png'};
@@ -38,6 +38,7 @@
 
         $('.ytube').mouseenter(function(){
      
+     //when you move your mouse over the youtube screen, the youtube logo lights up to red, to simulate an actual video.
      $(this).attr(activescreen);
      $(this).mouseleave(function(){
        $(this).attr(idlescreen)
