@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eastmec.com</title> 
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="icon" type="image/png" href="images/eastmecicon.png">
+
+    <script src="JS/jquery.js"></script>
+
+    <script>
+
+       let slabcolor = {'background-image': 'linear-gradient(rgb(80, 15, 90), rgb(72, 2, 76))'};
+
+       //highlight  color 
+       let slabcolorhl = {'background-image': 'linear-gradient(rgb(80, 15, 90), rgb(143, 43, 149))'}; 
+
+       //youtubestates
+       let idlescreen = {'src': 'images/eastmecvideoinactive.png'};
+       let activescreen = {'src': 'images/eastmecvideo.png'};
+
+      $(function(){
+      
+
+      
+
+      $('.slab').mouseenter(function(){
+     
+          $(this).css(slabcolorhl);
+          $(this).mouseleave(function(){
+            $(this).css(slabcolor)
+          })
+        })  
+
+
+        $('.ytube').mouseenter(function(){
+     
+     $(this).attr(activescreen);
+     $(this).mouseleave(function(){
+       $(this).attr(idlescreen)
+     })
+   })  
+
+        
+      })
+
+      </script>
+
+
+    <style>
+
+      nav{
+        background-image:linear-gradient(rgb(80, 15, 90), rgb(72, 2, 76));
+        border: solid rgba(0, 0, 0, 0.456) 3px;
+             }
+      body{
+        text-align: center;
+        margin: 0;
+        padding:0;
+      }
+      @font-face{
+        font-family:simpfont;
+        src: url("fonts/simpsontext.otf");
+      }
+      body.highlight{
+        background-color: rgba(0, 0, 0, 0.537);
+      }
+    
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+</head>
+<body>
+
+    <nav style="display:flex; padding:3rem;">
+<img src="images/eastmeclogo.png" class="logo">
+<br>
+
+
+    </nav>
+
+
+    <div class="backslab">
+
+    <div style="display:flex; justify-content:space-evenly; padding:5px; color:white">
+
+  <a><div class="slab"> ABOUT</div></a>
+  <a><div class="slab"> HIGH SCHOOL STUDENTS</div></a>
+  <a><div class="slab"> ADULT STUDENTS</div></a>
+  <a><div class="slab"> PARTNERS & EMPLOYEERS</div></a>
+  <a><div class="slab"> COMMUNITY</div></a>
+  <a><div class="slab"> COUNSELORS AND EDUCATORS</div></a>
+  <a><div class="slab"> APPLY</div></a>
+
+
+ </div>
+</div>
+
+
+<img src="images/eastmecbackground.jpg" style="max-width: 100%;">
+
+<div class = "bottomdiv" style="display:flex; justify-content:space-evenly; color:white">
+
+
+  <div class="bottompanel" style="text-align: center;">
+    <div>
+      <br>
+      <a href="https://youtu.be/4nzKUIRaltI"> <img src="images/eastmecvideoinactive.png" class="ytube"></a>
+    </div>
+  
+<br>  
+  PROGRAM DESCRIPTION
+  <br>
+  —
+  <br>
+  This two-year interactive program prepares students for a career as a software developer. The program teaches students how to design and develop software, build apps for phones, tablets, websites, and write and test computer code.
+  <br>
+  CAREER PATHWAYS
+  <br>
+  —
+  <br>
+  Software developer, computer programmer, web developer, mobile application designer, product manager*, quality assurance engineer*, software development engineer*
+  <br>
+  Coding entry-level salary range: $27.86 – $47.00 per hour**
+  <br>
+ 
+  
+</div>
+
+
+</div>
+   
+ </body>
+</html>
+
+

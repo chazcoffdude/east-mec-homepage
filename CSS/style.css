@@ -1,0 +1,62 @@
+.backslab {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2e0934), to(#340736));
+  background-image: linear-gradient(#2e0934, #340736);
+}
+
+.slab {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#500f5a), to(#48024c));
+  background-image: linear-gradient(#500f5a, #48024c);
+  scroll-padding-top: 1rem;
+  width: 10rem;
+  height: 3rem;
+  font-size: large;
+  border: solid rgba(0, 0, 0, 0.456);
+  border-radius: 8%;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.bottomdiv {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2e0934), to(#340736));
+  background-image: linear-gradient(#2e0934, #340736);
+  padding: 3rem;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#18041b), to(#250727));
+  background-image: linear-gradient(#18041b, #250727);
+}
+
+.bottompanel {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#500f5a), to(#810d87));
+  background-image: linear-gradient(#500f5a, #810d87);
+  scroll-padding-top: 1rem;
+  width: 50rem;
+  height: 40rem;
+  border: solid rgba(0, 0, 0, 0.456);
+  border-radius: 2%;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ytube{
+
+justify-self: center;
+
+width: 40rem;
+height:20rem;
+
+
+}
+/*# sourceMappingURL=style.css.map */

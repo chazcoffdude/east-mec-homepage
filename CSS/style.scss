@@ -1,0 +1,74 @@
+
+$slabcolor: (rgb(80, 15, 90), rgb(72, 2, 76));
+$slabcolorhl: (rgb(174, 88, 187), rgb(143, 43, 149));
+
+//highlight when hovered over color 'hl'
+
+
+.backslab{
+    background-image:linear-gradient(rgb(46, 9, 52), rgb(52, 7, 54));
+    
+}
+
+
+
+.slab{
+    background-image:linear-gradient(rgb(80, 15, 90), rgb(72, 2, 76));
+    
+
+scroll-padding-top: 1rem;
+width: 10rem;
+height:3rem;
+font-size: large;
+
+border:solid rgba(0, 0, 0, 0.456);
+border-radius:8%;
+justify-items: center;
+justify-content: center;
+font-family:Arial, Helvetica, sans-serif
+}
+
+
+
+.logo{
+
+
+    max-height:100px;
+
+}
+
+.bottomdiv{
+
+
+    background-image:linear-gradient(rgb(46, 9, 52), rgb(52, 7, 54));
+    padding:3rem;
+    
+
+
+}
+
+
+body{
+
+
+    background-image:linear-gradient(rgb(24, 4, 27), rgb(37, 7, 39));
+}
+.bottompanel{
+    background-image:linear-gradient(rgb(80, 15, 90), rgb(129, 13, 135));
+    
+
+    scroll-padding-top: 1rem;
+    width: 50rem;
+    height:40rem;
+    
+    border:solid rgba(0, 0, 0, 0.456);
+    border-radius:2%;
+    justify-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+
+//down here borrowed from previously learned widget lesson
+
